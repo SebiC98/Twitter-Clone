@@ -15,6 +15,7 @@ struct FeedView: View {
                 ForEach(0 ... 20, id: \.self){
                     _ in
                     TweetRowView()
+                        .padding()
                 }
             }
         }
