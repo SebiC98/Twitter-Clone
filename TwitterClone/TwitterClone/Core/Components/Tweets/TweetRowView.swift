@@ -34,7 +34,7 @@ struct TweetRowView: View {
                             .font(.caption)
                     }
                     //tweet caption
-                    Text("I belive in Obama Harris.")
+                    Text("Text for a tweet.")
                         .font(.subheadline)
                         .multilineTextAlignment(.leading)
                 }
