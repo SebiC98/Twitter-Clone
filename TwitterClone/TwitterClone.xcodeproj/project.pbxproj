@@ -27,6 +27,10 @@
 		DFD24C0C29745CA500D11626 /* SideMenuOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD24C0B29745CA500D11626 /* SideMenuOptionRowView.swift */; };
 		DFD24C11297544A800D11626 /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD24C10297544A800D11626 /* NewTweetView.swift */; };
 		DFD24C132975457300D11626 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD24C122975457300D11626 /* TextArea.swift */; };
+		DFD24C1829754E7500D11626 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD24C1729754E7500D11626 /* LoginView.swift */; };
+		DFD24C1C29754E8900D11626 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD24C1B29754E8900D11626 /* RegistrationView.swift */; };
+		DFD24C1E29754F9600D11626 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD24C1D29754F9600D11626 /* RoundedShape.swift */; };
+		DFD24C20297553D100D11626 /* CustomInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD24C1F297553D100D11626 /* CustomInputField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +55,10 @@
 		DFD24C0B29745CA500D11626 /* SideMenuOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionRowView.swift; sourceTree = "<group>"; };
 		DFD24C10297544A800D11626 /* NewTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetView.swift; sourceTree = "<group>"; };
 		DFD24C122975457300D11626 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
+		DFD24C1729754E7500D11626 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DFD24C1B29754E8900D11626 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		DFD24C1D29754F9600D11626 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
+		DFD24C1F297553D100D11626 /* CustomInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,7 @@
 		DFD24BD9297407FC00D11626 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				DFD24C1429754E2800D11626 /* Authentication */,
 				DFD24BDD2974081D00D11626 /* Components */,
 				DFD24C0D2975448700D11626 /* UploadTweet */,
 				DFD24C0029743BF200D11626 /* SideMenu */,
@@ -146,6 +155,8 @@
 				DFD24BFD297438B100D11626 /* Users */,
 				DFD24BE3297408EE00D11626 /* Tweets */,
 				DFD24C122975457300D11626 /* TextArea.swift */,
+				DFD24C1D29754F9600D11626 /* RoundedShape.swift */,
+				DFD24C1F297553D100D11626 /* CustomInputField.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -315,6 +326,31 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		DFD24C1429754E2800D11626 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				DFD24C1629754E4D00D11626 /* ViewModel */,
+				DFD24C1529754E4700D11626 /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		DFD24C1529754E4700D11626 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DFD24C1729754E7500D11626 /* LoginView.swift */,
+				DFD24C1B29754E8900D11626 /* RegistrationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DFD24C1629754E4D00D11626 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -391,6 +427,7 @@
 				DFD24C0629743C1B00D11626 /* SideMenuRowView.swift in Sources */,
 				DFD24BE52974091500D11626 /* TweetRowView.swift in Sources */,
 				DFD24BF82974342D00D11626 /* TweetFilterViewModel.swift in Sources */,
+				DFD24C20297553D100D11626 /* CustomInputField.swift in Sources */,
 				DFD24BE22974087800D11626 /* FeedView.swift in Sources */,
 				DFD24C132975457300D11626 /* TextArea.swift in Sources */,
 				DFD24C0429743C1000D11626 /* SideMenuView.swift in Sources */,
@@ -399,10 +436,13 @@
 				DFD24BEE29740FB400D11626 /* ExploreView.swift in Sources */,
 				DFD24C0829743C2800D11626 /* SideMenuViewModel.swift in Sources */,
 				DFD24BFF297438C300D11626 /* UserRowView.swift in Sources */,
+				DFD24C1E29754F9600D11626 /* RoundedShape.swift in Sources */,
 				DFD24C0C29745CA500D11626 /* SideMenuOptionRowView.swift in Sources */,
 				DFD24BE829740DA200D11626 /* MainTabView.swift in Sources */,
+				DFD24C1829754E7500D11626 /* LoginView.swift in Sources */,
 				DFD24BF029740FCB00D11626 /* NotificationsView.swift in Sources */,
 				DFD24C0A29743D7800D11626 /* UserStatsView.swift in Sources */,
+				DFD24C1C29754E8900D11626 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
