@@ -10,7 +10,7 @@ import SwiftUI
 struct SideMenuView: View {
    
         var body: some View {
-            NavigationStack{
+            NavigationView{
             VStack(alignment: .leading, spacing: 32) {
                 VStack(alignment: .leading){
                     Circle()
