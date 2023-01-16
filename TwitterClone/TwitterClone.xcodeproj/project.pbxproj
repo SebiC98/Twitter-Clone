@@ -31,6 +31,7 @@
 		DFD24C1C29754E8900D11626 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD24C1B29754E8900D11626 /* RegistrationView.swift */; };
 		DFD24C1E29754F9600D11626 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD24C1D29754F9600D11626 /* RoundedShape.swift */; };
 		DFD24C20297553D100D11626 /* CustomInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD24C1F297553D100D11626 /* CustomInputField.swift */; };
+		DFD24C232975717500D11626 /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD24C222975717500D11626 /* AuthHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		DFD24C1B29754E8900D11626 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		DFD24C1D29754F9600D11626 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
 		DFD24C1F297553D100D11626 /* CustomInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputField.swift; sourceTree = "<group>"; };
+		DFD24C222975717500D11626 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 		DFD24BDD2974081D00D11626 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				DFD24C212975715900D11626 /* Authentication */,
 				DFD24BFD297438B100D11626 /* Users */,
 				DFD24BE3297408EE00D11626 /* Tweets */,
 				DFD24C122975457300D11626 /* TextArea.swift */,
@@ -351,6 +354,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		DFD24C212975715900D11626 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				DFD24C222975717500D11626 /* AuthHeaderView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -441,6 +452,7 @@
 				DFD24BE829740DA200D11626 /* MainTabView.swift in Sources */,
 				DFD24C1829754E7500D11626 /* LoginView.swift in Sources */,
 				DFD24BF029740FCB00D11626 /* NotificationsView.swift in Sources */,
+				DFD24C232975717500D11626 /* AuthHeaderView.swift in Sources */,
 				DFD24C0A29743D7800D11626 /* UserStatsView.swift in Sources */,
 				DFD24C1C29754E8900D11626 /* RegistrationView.swift in Sources */,
 			);
